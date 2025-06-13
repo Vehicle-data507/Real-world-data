@@ -122,8 +122,11 @@ Data preprocessing code, where the parameter identification code is 17.1 Paramet
 21_SOH_2.ipynb
 
 Baseline model code
+
 Transformer_dataset_2.ipynb
+
 CNN_dataset_2.ipynb
+
 LSTM_dataset_2.ipynb
 
 
