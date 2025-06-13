@@ -75,7 +75,7 @@ seaborn=0.13.2
 
 #****************************Code explanation************************************************#
 
-Data preprocessing code, where the parameter identification code is 17.1 Parameter Identification.ipynb
+Data preprocessing code
 
 1_Outlier detection.ipynb
 
@@ -134,6 +134,8 @@ Transformer_dataset_2.ipynb
 CNN_dataset_2.ipynb
 
 LSTM_dataset_2.ipynb
+
+ where the parameter identification code is 17.1 Parameter Identification.ipynb
 
 
 
