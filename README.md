@@ -64,6 +64,14 @@ we have released only the portions of information that were accessible under the
 | Vehicle#10     | It contains a total of 324 battery cells |
 
 
+#****************************Environment************************************************#
+python=3.8.20
+pandas=2.0.3
+numpy=1.24.1
+matplotlib=3.7.5
+scikit-learn=1.3.2
+seaborn=0.13.2
+
 
 
 
