@@ -65,6 +65,7 @@ we have released only the portions of information that were accessible under the
 
 
 #****************************Environment************************************************#
+
 python=3.8.20
 pandas=2.0.3
 numpy=1.24.1
@@ -73,6 +74,7 @@ scikit-learn=1.3.2
 seaborn=0.13.2
 
 #****************************Code explanation************************************************#
+
 Data preprocessing code, where the parameter identification code is 17.1 Parameter Identification.ipynb
 
 1_Outlier detection.ipynb
