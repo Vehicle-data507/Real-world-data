@@ -77,46 +77,65 @@ seaborn=0.13.2
 
 Data preprocessing code
 
+Outlier detection
 1_Outlier detection.ipynb
 
+Check the column names to see if the data entries are correct.
 2_Check whether the deleted column names are consistent Outlier detection.ipynb
 
+Process the date to facilitate subsequent matching of the ambient temperature.
 3_Extraction date.ipynb
 
+Check whether the date and mileage are increasing (check item)
 4_Check whether the date and mileage are increasing Extract date.ipynb
 
+Split documents by month
 5_Divided into multiple documents by month.ipynb
 
+Check whether the charging signal is normal.
 6_Check whether the third column is all 1 or 3_charging status.ipynb
 
+Combination date convenient for subsequent environmental temperature matching
 7_Combination date.ipynb
 
+Matching ambient temperature
 8_Matching ambient temperature.ipynb
 
+Calculate the cumulative number of days the vehicle has been used (this is optional and can be omitted).
 9_Calculate the cumulative number of days.ipynb
 
+Calculate cumulative charge and discharge capacity
 10_Calculate cumulative charge and discharge capacity.ipynb
 
+Calculate real-time vehicle power
 11_Calculate power.ipynb
 
+Calculate the real-time temperature of the battery (average of the highest and lowest temperature values)
 12_Calculate battery temperature.ipynb
 
+Split segments, each charging segment is a document
 13_Split segments.ipynb
 
+Calculate the average current, average temperature, and average power for each charging segment.
 14_Calculate the average current, average temperature, and average power.ipynb
 
+Statistics on drivers' driving habits
 15_Statistics on cumulative deep discharge charging and fast charging times.ipynb
 
+Interpolate the charging segments. The reason for not interpolating at the beginning is that the initial segments contain formal segments, which would result in too many interpolations, leading to excessive runtime. Additionally, the signals from the formal segments can be discarded.
 16_interpolation.ipynb
 
+17.1-17.3Parameter identification
 17.1 Parameter Identification.ipynb
 
 17.2 Noise Reduction and Smoothing.ipynb
 
 17.3 Additions to the original document.ipynb
 
+Calculate battery state of health
 18_Calculate SOH.ipynb
 
+Noise reduction smoothing
 19_Noise reduction, smoothing.ipynb
 
 20_Rename.ipynb
