@@ -5,11 +5,7 @@ The vehicle onboard sensor signals, including temperature, current, voltage, and
 the data are forwarded by the onboard telematics unit (T-BOX) to the signal base station at a fixed sampling frequency. The base station then transmits the collected data to the Original Equipment Manufacturer (OEM) and the big data monitoring platform for storage. 
 The publicly available dataset utilized in this study includes the following variables: data sampling timestamp, vehicle speed, charging status, accumulated mileage, total voltage, current, state of charge (SOC), and cell-level parameters such as minimum and maximum cell voltages and temperatures.
 
-## Data Acquisition Process
-
-The vehicle onboard sensor signals (including temperature, current, voltage, and vehicle-level signals) are transmitted to the Battery Management System (BMS) via the Controller Area Network (CAN) bus.  
-Then, the data are forwarded by the onboard telematics unit (T-BOX) to the signal base station at a fixed sampling frequency.  
-Finally, the base station transmits the collected data to the Original Equipment Manufacturer (OEM) and the big data monitoring platform for storage.
+## Explanation of data table headers
 
 The publicly available dataset used in this study contains the following variables:
 
