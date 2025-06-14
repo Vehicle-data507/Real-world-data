@@ -1,4 +1,4 @@
-#******************************** Real-world-data information******************************************#
+# Real-World Battery Dataset Description and Modeling
 
 #Data acquisition method:
 The vehicle onboard sensor signals, including temperature, current, voltage, and vehicle-level signals, are transmitted to the Battery Management System (BMS) via the Controller Area Network (CAN) bus. Subsequently, 
@@ -28,7 +28,7 @@ The publicly available dataset used in this study contains the following variabl
 | bcell_minTemp | Minimum cell temperature (°C) |
 
 
-#*****************************Vehicle details form************************************************#
+## 🚗 Vehicle Information
 
 | Vehicle number | Vehicle type     | Battery material | Initial rated capacity (Ah) | Number of data points | Cumulative Mileage (km) | Sampling frequency (Hz) |
 |----------------|------------------|-------------------|-----------------------------|-----------------------|-------------------------|-------------------------|
@@ -44,7 +44,7 @@ The publicly available dataset used in this study contains the following variabl
 | Vehicle#10     | Electric bus      | LFP              | 505                         | 715956                | 27677                   | 0.1                     |
 
 
-#*****************************Battery pack structure table************************************************#
+## 🔬 Battery Pack Structure
 
 Battery pack structure: Owing to confidentiality constraints imposed by the data platform and OEM manufacturers, the structural details of some vehicle battery packs remain undisclosed. Consequently, 
 we have released only the portions of information that were accessible under the current data-sharing agreements.
@@ -62,7 +62,7 @@ we have released only the portions of information that were accessible under the
 | Vehicle#10     | It contains a total of 324 battery cells |
 
 
-#****************************Environment************************************************#
+## 🖥️ Experimental Environment
 
 python=3.8.20
 pandas=2.0.3
@@ -71,7 +71,7 @@ matplotlib=3.7.5
 scikit-learn=1.3.2
 seaborn=0.13.2
 
-#****************************Code explanation************************************************#
+##Code explanation
 
 Data preprocessing code
 
