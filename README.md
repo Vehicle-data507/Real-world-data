@@ -5,29 +5,27 @@ The vehicle onboard sensor signals, including temperature, current, voltage, and
 the data are forwarded by the onboard telematics unit (T-BOX) to the signal base station at a fixed sampling frequency. The base station then transmits the collected data to the Original Equipment Manufacturer (OEM) and the big data monitoring platform for storage. 
 The publicly available dataset utilized in this study includes the following variables: data sampling timestamp, vehicle speed, charging status, accumulated mileage, total voltage, current, state of charge (SOC), and cell-level parameters such as minimum and maximum cell voltages and temperatures.
 
-#******************************Description of dataset variables******************************************#
+## 📊 Data Acquisition Process
 
-Time: Timestamp of data acquisition.
+The vehicle onboard sensor signals (including temperature, current, voltage, and vehicle-level signals) are transmitted to the Battery Management System (BMS) via the Controller Area Network (CAN) bus.  
+Then, the data are forwarded by the onboard telematics unit (T-BOX) to the signal base station at a fixed sampling frequency.  
+Finally, the base station transmits the collected data to the Original Equipment Manufacturer (OEM) and the big data monitoring platform for storage.
 
-vhc_speed: Vehicle speed (km/h).
+The publicly available dataset used in this study contains the following variables:
 
-charging_signal: Charging status indicator; a value of 3 denotes driving mode, while 1 indicates charging mode.
-
-vhc_totalMile: Accumulated driving mileage (km).
-
-hv_voltage: Total voltage of the battery pack (V).
-
-hv_current: Total current of the battery pack (A).
-
-bcell_soc: State of Charge (SOC) of the battery pack.
-
-bcell_maxVoltage: Maximum cell voltage within the battery pack (V).
-
-bcell_minVoltage: Minimum cell voltage within the battery pack (V).
-
-bcell_maxTemp: Maximum cell temperature within the battery pack (°C).
-
-bcell_minTemp: Minimum cell temperature within the battery pack (°C).
+| Variable Name | Description |
+| -------------- | ----------- |
+| Time | Timestamp of data acquisition |
+| vhc_speed | Vehicle speed (km/h) |
+| charging_signal | Charging status indicator: 3 = driving mode, 1 = charging mode |
+| vhc_totalMile | Accumulated driving mileage (km) |
+| hv_voltage | Total voltage of the battery pack (V) |
+| hv_current | Total current of the battery pack (A) |
+| bcell_soc | State of Charge (SOC) |
+| bcell_maxVoltage | Maximum cell voltage within the battery pack (V) |
+| bcell_minVoltage | Minimum cell voltage within the battery pack (V) |
+| bcell_maxTemp | Maximum cell temperature (°C) |
+| bcell_minTemp | Minimum cell temperature (°C) |
 
 
 #*****************************Vehicle details form************************************************#
