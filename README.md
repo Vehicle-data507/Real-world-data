@@ -39,6 +39,8 @@ The publicly available dataset used in this study contains the following variabl
 | Vehicle#9      | Electric bus      | LFP              | 645                         | 443806                | 43988                   | 0.1                     |
 | Vehicle#10     | Electric bus      | LFP              | 505                         | 715956                | 27677                   | 0.1                     |
 
+NCM refers to Nickel Cobalt Manganese lithium-ion batteries, while LFP refers to Lithium Iron Phosphate batteries
+
 
 ## Battery Pack Structure
 
