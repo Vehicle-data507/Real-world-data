@@ -1,11 +1,11 @@
 # Real-World Battery Dataset Description and Modeling
 
-#Data acquisition method:
+##Data acquisition method:
 The vehicle onboard sensor signals, including temperature, current, voltage, and vehicle-level signals, are transmitted to the Battery Management System (BMS) via the Controller Area Network (CAN) bus. Subsequently, 
 the data are forwarded by the onboard telematics unit (T-BOX) to the signal base station at a fixed sampling frequency. The base station then transmits the collected data to the Original Equipment Manufacturer (OEM) and the big data monitoring platform for storage. 
 The publicly available dataset utilized in this study includes the following variables: data sampling timestamp, vehicle speed, charging status, accumulated mileage, total voltage, current, state of charge (SOC), and cell-level parameters such as minimum and maximum cell voltages and temperatures.
 
-## 📊 Data Acquisition Process
+##Data Acquisition Process
 
 The vehicle onboard sensor signals (including temperature, current, voltage, and vehicle-level signals) are transmitted to the Battery Management System (BMS) via the Controller Area Network (CAN) bus.  
 Then, the data are forwarded by the onboard telematics unit (T-BOX) to the signal base station at a fixed sampling frequency.  
@@ -28,7 +28,7 @@ The publicly available dataset used in this study contains the following variabl
 | bcell_minTemp | Minimum cell temperature (°C) |
 
 
-## 🚗 Vehicle Information
+##Vehicle Information
 
 | Vehicle number | Vehicle type     | Battery material | Initial rated capacity (Ah) | Number of data points | Cumulative Mileage (km) | Sampling frequency (Hz) |
 |----------------|------------------|-------------------|-----------------------------|-----------------------|-------------------------|-------------------------|
@@ -44,7 +44,7 @@ The publicly available dataset used in this study contains the following variabl
 | Vehicle#10     | Electric bus      | LFP              | 505                         | 715956                | 27677                   | 0.1                     |
 
 
-## 🔬 Battery Pack Structure
+##Battery Pack Structure
 
 Battery pack structure: Owing to confidentiality constraints imposed by the data platform and OEM manufacturers, the structural details of some vehicle battery packs remain undisclosed. Consequently, 
 we have released only the portions of information that were accessible under the current data-sharing agreements.
@@ -62,7 +62,7 @@ we have released only the portions of information that were accessible under the
 | Vehicle#10     | It contains a total of 324 battery cells |
 
 
-## 🖥️ Experimental Environment
+##Experimental Environment
 
 python=3.8.20
 pandas=2.0.3
