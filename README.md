@@ -60,7 +60,7 @@ we have released only the portions of information that were accessible under the
 | Vehicle#10     | It contains a total of 324 battery cells |
 
 
-If you have any further questions regarding the dataset, feel free to contact: mshaojing97@mail.scut.edu.cn
+Currently, one month of operational data per vehicle has been provided. For access to the full dataset, please contact: mshaojing97@mail.scut.edu.cn
 
 
 
